@@ -1,0 +1,11 @@
+﻿Зайти на сайт https://fssp.gov.ru/ и вбить в консоли эти команды
+
+
+alert( "firstChild: " + document.head.firstChild )
+alert( "nextSibling: " + document.head.nextSibling )
+alert( "lastElementChild: " + document.head.lastElementChild )
+alert( "class: " + document.body.getElementsByClassName("header") )
+alert( "id: " + document.getElementById("app") )
+alert( "Элемент внутри элемента: " + app.getElementsByClassName("header") )
+alert( "Селектор на атрибут: " + document.querySelector('meta[name="viewport"]') )
+alert( "Псевдокласс: " + document.querySelector(':link') )
